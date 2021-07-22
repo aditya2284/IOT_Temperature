@@ -1,0 +1,3 @@
+obj\Debug\net5.0\Protos/Temperature.cs \
+obj\Debug\net5.0\Protos/TemperatureGrpc.cs: C:/Users/madhusudana/.nuget/packages/grpc.tools/2.38.1/build/native/include/google/protobuf/timestamp.proto\
+ Protos/Temperature.proto
