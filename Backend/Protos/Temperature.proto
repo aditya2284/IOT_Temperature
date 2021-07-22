@@ -1,0 +1,18 @@
+﻿syntax = "proto3";
+import "google/protobuf/timestamp.proto";
+
+package temperatures;
+
+service TemperatureSensing{
+	rpc AddTemperatureData(TemperatureData) returns(Empty);
+}
+
+message Empty{
+}
+
+message TemperatureData{
+	string device_ID=1;
+	google.protobuf.Timestamp date_time=2;
+	float temperature=3;
+	string unit=4;
+}
